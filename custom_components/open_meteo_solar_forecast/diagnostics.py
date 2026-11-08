@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from open_meteo_solar_forecast import Estimate
+from .omsf_lib import Estimate
 
 from homeassistant.components.diagnostics import async_redact_data
 from homeassistant.config_entries import ConfigEntry

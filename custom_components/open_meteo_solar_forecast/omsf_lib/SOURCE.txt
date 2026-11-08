@@ -1,0 +1,1 @@
+Vendored from anorakophobia/open-meteo-solar-forecast ha-install 5380a7c (0.1.32 + #56 + #57 + skip finished intervals).

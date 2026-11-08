@@ -26,7 +26,7 @@ from homeassistant.helpers.typing import StateType
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
 from homeassistant.util import slugify
 
-from open_meteo_solar_forecast.models import Estimate
+from .omsf_lib.models import Estimate
 
 from .const import ATTR_WATTS, ATTR_WH_PERIOD, ATTR_WH_PERIOD_15M, DOMAIN
 from .coordinator import OpenMeteoSolarForecastDataUpdateCoordinator

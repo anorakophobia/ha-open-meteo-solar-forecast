@@ -15,7 +15,7 @@ from homeassistant.helpers.aiohttp_client import async_get_clientsession
 from homeassistant.helpers.storage import Store
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
 from homeassistant.util import dt as dt_util
-from open_meteo_solar_forecast import Estimate, OpenMeteoSolarForecast
+from .omsf_lib import Estimate, OpenMeteoSolarForecast
 
 from .const import (
     CONF_ARRAY_INVERTER_POWER,
